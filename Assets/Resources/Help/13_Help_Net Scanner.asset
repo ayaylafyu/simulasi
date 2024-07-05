@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5635cea902c90142b274a6a99209c10, type: 3}
+  m_Name: 13_Help_Net Scanner
+  m_EditorClassIdentifier: 
+  titleHelp: Network Scanner
+  imageHelp: {fileID: 21300000, guid: a3542c51e42f86543aa705bca6711bb0, type: 3}
+  descHelp: "Network scanner digunakan untuk melakukan pemindaian atau scanning jaringan
+    komputer untuk mengidentifikasi perangkat yang terhubung ke dalam jaringan. Tujuan
+    utama dari network scanner adalah untuk memetakan infrastruktur jaringan, mengidentifikasi
+    perangkat yang aktif, mengumpulkan informasi tentang perangkat tersebut, dan
+    mendeteksi potensi masalah keamanan. Command yang digunakan yaitu:\r\nnmap -sn
+    [ip network/prefix]\r"

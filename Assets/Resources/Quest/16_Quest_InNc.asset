@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f1d7705de97e4d8b4e6d8bf3e136e, type: 3}
+  m_Name: 16_Quest_InNc
+  m_EditorClassIdentifier: 
+  questID: 16_InNc
+  questName: Dwiki
+  questChat: Tolong ambilkan file berisi alamat rumah dari user bernama Elsa Sasmita,
+    aku akan mengajarimu caranya.
+  expReward: 35
+  overviewChat: Tolong ambilkan file berisi...
+  kirimChat: Aku sudah mendapatkannya.
+  balasChat: Baiklah
+  questSteps:
+  - requiredFile: 
+    requiredInput: apt-get install netcat
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: 
+    userToFind: 
+    requiredButtonTag: btnBrowser
+    questType: 3
+  - requiredFile: 
+    requiredInput: 
+    userToFind: 
+    requiredButtonTag: btnFB
+    questType: 3
+  - requiredFile: 
+    requiredInput: 
+    userToFind: Elsa Sasmita
+    requiredButtonTag: 
+    questType: 1
+  - requiredFile: 
+    requiredInput: nc -lnvp 4444
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: help
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: download documents/list.txt
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: exit
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: ls
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  activeQuestText:
+  - Install tool netcat
+  - Buka software browser
+  - Buka menu Findbook
+  - Kirim pesan pada user yang telah ditargetkan
+  - 'Masukkan command nc -lnvp 4444 '
+  - Masukkan perintah help untuk melihat petunjuk
+  - Ambil file yang berisi alamat rumah
+  - Keluar dari pc target
+  - Masukkan perintah ls untuk melihat aapakah file yang diinginkan sudah diunduh

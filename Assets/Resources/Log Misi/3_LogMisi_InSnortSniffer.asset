@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d512e31f864045ac3572e2f954690, type: 3}
+  m_Name: 3_LogMisi_InSnortSniffer
+  m_EditorClassIdentifier: 
+  nameLog: Misi Pengenalan Snort Sniffer Mode (Marvel)
+  descLog: "\r- Langkah 1: Menginstal Snort menggunakan perintah 'apt-get install
+    snort'.\r\n- Langkah 2: Melihat daftar perintah menggunakan perintah 'help'.\r\n-
+    Langkah 3: Memulai Snort dalam mode verbose untuk menampilkan informasi rinci
+    menggunakan perintah 'snort -v'.\r\n- Langkah 4: Memulai Snort dalam mode verbose
+    dan memperluas informasi debug menggunakan perintah 'snort -vd'.\r"

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d512e31f864045ac3572e2f954690, type: 3}
+  m_Name: 6_LogMisi_SnortPacket
+  m_EditorClassIdentifier: 
+  nameLog: Misi Snort Packet Logger Mode (Luis)
+  descLog: '- Langkah 1: Memulai Snort dalam mode verbose dan menyimpan log ke ''/var/log/snort/''
+    menggunakan perintah ''snort -dev -i eth0 -l /var/log/snort/''.
+
+    - Langkah
+    2: Melihat isi direktori ''/var/log/snort/'' menggunakan perintah ''ls /var/log/snort/''.
+
+    -
+    Langkah 3: Memulai Snort dalam mode verbose dengan menggunakan log yang sudah
+    ada ''/var/log/snort/snort.log.716'' menggunakan perintah ''snort -dev -r /var/log/snort/snort.log.716''.
+
+'

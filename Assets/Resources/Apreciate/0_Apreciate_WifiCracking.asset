@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07537bb9fd66bdc4ea479bd030d578e9, type: 3}
+  m_Name: 0_Apreciate_WifiCracking
+  m_EditorClassIdentifier: 
+  titleApre: wifi cracking
+  imageApre: {fileID: 21300000, guid: fb3df718229fb4a40964e7c5f80ddaad, type: 3}
+  descApre: "Selamat kamu telah berhasil menyelesaikan misi wifi cracking!\r\nDari
+    misi ini kamu sudah mempelajari:\r\n- Cara menginstall tool aircrack-ng dengan
+    command apt-get install aircrack-ng\r\n- Cara mengaktifkan/menonaktifkan mode
+    monitor dengan airmon-ng\r\n- Cara menangkap file handshake dengan airodump-ng\r\n-
+    Cara melakukan deauth attack dengan aireplay-ng\r\n- Cara cracking dengan aircrack-ng\r"

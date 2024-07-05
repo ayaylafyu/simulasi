@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f1d7705de97e4d8b4e6d8bf3e136e, type: 3}
+  m_Name: 8_Quest_Nmap1
+  m_EditorClassIdentifier: 
+  questID: 8_Nmap1
+  questName: Aheng
+  questChat: Tolong scan pada IP 213.91.32.9 dengan menggunakan scanning sederhana.
+  expReward: 35
+  overviewChat: Tolong scan pada IP 213.91....
+  kirimChat: Sudah selesai
+  balasChat: Terimakasih
+  questSteps:
+  - requiredFile: 
+    requiredInput: ping 213.91.32.9
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: nmap 213.91.32.9
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  activeQuestText:
+  - Lakukan ping terlebih dahulu
+  - Scan ip yang telah diberikan

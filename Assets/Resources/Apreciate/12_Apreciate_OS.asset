@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07537bb9fd66bdc4ea479bd030d578e9, type: 3}
+  m_Name: 12_Apreciate_OS
+  m_EditorClassIdentifier: 
+  titleApre: 
+  imageApre: {fileID: 0}
+  descApre: "Selamat kamu telah berhasil menyelesaikan misi OS Fingerprint!\r\nDari
+    misi ini kamu belajar cara melakukan scanning untuk mengetahui prediksi sistem
+    operasi yang digunakan oleh target, disini ip target yang dilakukan scanning
+    yaitu 184.72.33.210. Nmap berhasil mengidentifikasi sistem operasi yang digunakan
+    target yaitu Linux dengan versi kernel antara 2.6.32 hingga 2.6.39.\r"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d512e31f864045ac3572e2f954690, type: 3}
+  m_Name: 19_LogMisi_Nc3
+  m_EditorClassIdentifier: 
+  nameLog: Misi Netcat 3 (Eve)
+  descLog: "- Langkah 1: Mencari user Agus Sutedjo dan mengirim pesan.\r\n- Langkah
+    2: Mendengarkan koneksi pada port 4444 menggunakan perintah 'nc -lnvp 4444'.\r\n-
+    Langkah 3: Mendownload file yang dicari dari folder music menggunakan perintah
+    'download music/logo.txt'.\r\n- Langkah 4: Keluar dari pc target.\r"

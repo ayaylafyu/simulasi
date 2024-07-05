@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d512e31f864045ac3572e2f954690, type: 3}
+  m_Name: 7_LogMisi_InNmap
+  m_EditorClassIdentifier: 
+  nameLog: Misi Pengenalan NMAP (Dimas)
+  descLog: "- Langkah 1: Melakukan ping ke alamat IP 173.101.10.10 menggunakan perintah
+    'ping 173.101.10.10'.\r\n- Langkah 2: Menginstal Nmap menggunakan perintah 'apt-get
+    install nmap'.\r\n- Langkah 3: Memindai alamat IP 173.101.10.10 menggunakan perintah
+    'nmap 173.101.10.10'.\r\n- Langkah 4: Memindai alamat IP 173.101.10.10 dengan
+    mencoba mendeteksi service version yang berjalan menggunakan perintah 'nmap -sV
+    173.101.10.10'.\r\n- Langkah 5: Memindai port 22 di alamat IP 173.101.10.10 menggunakan
+    perintah 'nmap -p 22 173.101.10.10'.\r\n- Langkah 6: Memindai jaringan dengan
+    rentang IP 173.101.10.0/24 menggunakan perintah 'nmap 173.101.10.0/24'.\r"

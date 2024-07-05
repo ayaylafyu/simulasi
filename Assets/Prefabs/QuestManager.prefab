@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5594395355849126589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1076466889568382041}
+  - component: {fileID: 3462690227843697402}
+  - component: {fileID: 5274347280739347974}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1076466889568382041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594395355849126589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3462690227843697402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594395355849126589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d76189331c5be45ae9580004492161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allQuests:
+  - {fileID: 11400000, guid: 9da865e998d675a45bfa701734205114, type: 2}
+  - {fileID: 11400000, guid: 9331ffe7a2a861b4da3af89dca7589c0, type: 2}
+  - {fileID: 11400000, guid: 7372631b6c0342f43b938abb0c9ebdf3, type: 2}
+  - {fileID: 11400000, guid: 2afd70b741b3a684ba6a44e56ae167e0, type: 2}
+  - {fileID: 11400000, guid: b24d59a2775fd1440a9737f752d1ee1c, type: 2}
+  - {fileID: 11400000, guid: bd664757b2a32774c932d91a7f908994, type: 2}
+  - {fileID: 11400000, guid: 62622a383be868a43b7456d7c5c259b0, type: 2}
+  - {fileID: 11400000, guid: a6d42313c0745504a95070d76c834294, type: 2}
+  - {fileID: 11400000, guid: 92a42015cb3969243bfbc9aa10bd365d, type: 2}
+  - {fileID: 11400000, guid: 165bacbaf8726504fa855a79f637f011, type: 2}
+  - {fileID: 11400000, guid: 900efb2be2c920649b53e38db87d5647, type: 2}
+  - {fileID: 11400000, guid: fb2c8a83be4aa9143a58e6381c7c8fb5, type: 2}
+  - {fileID: 11400000, guid: 2578f8fd95895f348a1d2cce42033469, type: 2}
+  - {fileID: 11400000, guid: 3d9c86e35dad0db4c92aeacd43772091, type: 2}
+  - {fileID: 11400000, guid: b6de2d3cceb702c4cbe36bb21df4c03c, type: 2}
+  - {fileID: 11400000, guid: 7a89c56da2730b349bbbe909dec689a9, type: 2}
+  - {fileID: 11400000, guid: 155d16dad832cb348bd2dd9bd9ecf1af, type: 2}
+  - {fileID: 11400000, guid: 533c96c1f44b679448fef50fa3c4e454, type: 2}
+  - {fileID: 11400000, guid: dca2079c715fa7142985282c09fd83c3, type: 2}
+  - {fileID: 11400000, guid: dabc21cf9e8dcdc4c927d447549aca9c, type: 2}
+  availableQuests:
+  - {fileID: 11400000, guid: 9da865e998d675a45bfa701734205114, type: 2}
+  - {fileID: 11400000, guid: 9331ffe7a2a861b4da3af89dca7589c0, type: 2}
+  - {fileID: 11400000, guid: 7372631b6c0342f43b938abb0c9ebdf3, type: 2}
+  - {fileID: 11400000, guid: 2afd70b741b3a684ba6a44e56ae167e0, type: 2}
+  - {fileID: 11400000, guid: b24d59a2775fd1440a9737f752d1ee1c, type: 2}
+  - {fileID: 11400000, guid: bd664757b2a32774c932d91a7f908994, type: 2}
+  - {fileID: 11400000, guid: 62622a383be868a43b7456d7c5c259b0, type: 2}
+  - {fileID: 11400000, guid: a6d42313c0745504a95070d76c834294, type: 2}
+  - {fileID: 11400000, guid: 92a42015cb3969243bfbc9aa10bd365d, type: 2}
+  - {fileID: 11400000, guid: 165bacbaf8726504fa855a79f637f011, type: 2}
+  - {fileID: 11400000, guid: 900efb2be2c920649b53e38db87d5647, type: 2}
+  - {fileID: 11400000, guid: fb2c8a83be4aa9143a58e6381c7c8fb5, type: 2}
+  - {fileID: 11400000, guid: 2578f8fd95895f348a1d2cce42033469, type: 2}
+  - {fileID: 11400000, guid: 3d9c86e35dad0db4c92aeacd43772091, type: 2}
+  - {fileID: 11400000, guid: b6de2d3cceb702c4cbe36bb21df4c03c, type: 2}
+  - {fileID: 11400000, guid: 7a89c56da2730b349bbbe909dec689a9, type: 2}
+  - {fileID: 11400000, guid: 155d16dad832cb348bd2dd9bd9ecf1af, type: 2}
+  - {fileID: 11400000, guid: 533c96c1f44b679448fef50fa3c4e454, type: 2}
+  - {fileID: 11400000, guid: dca2079c715fa7142985282c09fd83c3, type: 2}
+  - {fileID: 11400000, guid: dabc21cf9e8dcdc4c927d447549aca9c, type: 2}
+  activeQuests: []
+  displayedQuests: []
+  indexQuestAktif: 0
+  indexStepSaatIni: 0
+  maxQuestSteps: 0
+  indexActiveQuestText: 0
+  questYangAktif: {fileID: 0}
+  questGiver: {fileID: 0}
+  terminal: {fileID: 0}
+  fileManager: {fileID: 0}
+  bugDB: {fileID: 0}
+  findbook: {fileID: 0}
+  help: {fileID: 0}
+  apre: {fileID: 0}
+  hint: {fileID: 0}
+  playerScript: {fileID: 5274347280739347974}
+  misi: {fileID: 0}
+  user: {fileID: 0}
+  activeQuestTeks: {fileID: 0}
+  previousTeks: {fileID: 0}
+  nextTeks: {fileID: 0}
+  totalStep: {fileID: 0}
+  activeQuestObject: {fileID: 0}
+  previousObject: {fileID: 0}
+  nextObject: {fileID: 0}
+  allTextObject: {fileID: 0}
+  logMisi:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  sliderWifi: {fileID: 0}
+  fill: {fileID: 0}
+  minTime: 0
+  userinput: {fileID: 0}
+  allButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  softDmail: {fileID: 0}
+  softFile: {fileID: 0}
+  softBrowser: {fileID: 0}
+  bookFind: {fileID: 0}
+  panelPopUp:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  panelGameOver: {fileID: 0}
+  kembali: {fileID: 0}
+  ulangi: {fileID: 0}
+  ikonHint: {fileID: 0}
+  popUpConfirm: {fileID: 0}
+  noShow: {fileID: 0}
+  yesShow: {fileID: 0}
+  emptyHintText: {fileID: 0}
+--- !u!114 &5274347280739347974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594395355849126589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a4100a55c2c514fa0aab022e59a9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: {fileID: 0}
+  hint: {fileID: 0}
+  sliderExp: {fileID: 0}
+  tooltipText: {fileID: 0}
+  bgTooltipText: {fileID: 0}

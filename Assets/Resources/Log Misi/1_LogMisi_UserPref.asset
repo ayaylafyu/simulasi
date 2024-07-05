@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d512e31f864045ac3572e2f954690, type: 3}
+  m_Name: 1_LogMisi_UserPref
+  m_EditorClassIdentifier: 
+  nameLog: Misi User Preferences
+  descLog: "- Langkah 1: Membuka software User Preferences.\r\n- Langkah 2: Membuka
+    menu display.\r\n- Langkah 3: Mengganti ukuran windows.\r"

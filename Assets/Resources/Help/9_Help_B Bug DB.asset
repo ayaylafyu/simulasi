@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5635cea902c90142b274a6a99209c10, type: 3}
+  m_Name: 9_Help_B Bug DB
+  m_EditorClassIdentifier: 
+  titleHelp: 'Software: Browser Bug DB'
+  imageHelp: {fileID: 21300000, guid: bd306303d21496c428ee2517883e759e, type: 3}
+  descHelp: Setelah melakukan scan version, kamu bisa mendownload file exploit yang
+    sesuai di software Browser pada bagian Bug DB.

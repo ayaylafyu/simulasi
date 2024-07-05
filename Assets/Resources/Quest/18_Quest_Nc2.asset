@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f1d7705de97e4d8b4e6d8bf3e136e, type: 3}
+  m_Name: 18_Quest_Nc2
+  m_EditorClassIdentifier: 
+  questID: 18_Nc2
+  questName: Daza
+  questChat: Aku sangat menginginkan file berisi nomor rekening milik Lilis Pujiastuti,
+    tolong bantu aku.
+  expReward: 35
+  overviewChat: Aku sangat menginginkan fil...
+  kirimChat: Baik tunggulah sebentar
+  balasChat: Baiklah
+  questSteps:
+  - requiredFile: 
+    requiredInput: 
+    userToFind: Lilis Pujiastuti
+    requiredButtonTag: 
+    questType: 1
+  - requiredFile: 
+    requiredInput: nc -lnvp 4444
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: download file/november.txt
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: exit
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  activeQuestText:
+  - Kirim pesan pada user yang telah ditargetkan
+  - 'Masukkan command nc -lnvp 4444 '
+  - Ambil file yang berisi nomor rekening
+  - Keluar dari pc target

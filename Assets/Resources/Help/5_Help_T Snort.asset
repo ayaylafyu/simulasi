@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5635cea902c90142b274a6a99209c10, type: 3}
+  m_Name: 5_Help_T Snort
+  m_EditorClassIdentifier: 
+  titleHelp: 'Tools: Snort'
+  imageHelp: {fileID: 21300000, guid: 7da20e9ee2e87fe4d9a28cee36140928, type: 3}
+  descHelp: "Snort adalah tools open-source yang digunakan untuk melihat lalu lintas
+    jaringan secara real-time. Snort memiliki 3 mode:\r\na. Sniffer Mode \u2013 Membaca
+    ip paket yang mengunjungi jaringan\r\nb. Packet Logger Mode \u2013 Mencatat semua
+    paket ip (baik yang masuk maupun keluar) yang mengunjungi jaringan\r\nc. NIDS
+    (Network Intrusion Detection System) dan NIPS (Network Intrusion Prevention System)
+    Mode \u2013 Mencatat atau menghapus paket yang dianggap berbahaya sesuai dengan
+    rules yang telah ditentukan oleh pengguna.\r\n"

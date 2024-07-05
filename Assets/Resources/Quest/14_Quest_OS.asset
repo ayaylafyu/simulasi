@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f1d7705de97e4d8b4e6d8bf3e136e, type: 3}
+  m_Name: 14_Quest_OS
+  m_EditorClassIdentifier: 
+  questID: 14_OS
+  questName: Ghyani
+  questChat: Bolehkah aku meminta bantuanmu? aku ingin mengetahui apa operating system
+    yang digunakan oleh 184.72.33.210. Terimakasih
+  expReward: 35
+  overviewChat: Bolehkah aku meminta bantua...
+  kirimChat: Sudah aku lakukan
+  balasChat: Terima kasih
+  questSteps:
+  - requiredFile: 
+    requiredInput: ping 184.72.33.210
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: nmap -O 184.72.33.210
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  activeQuestText:
+  - Cek target untuk mengetahui apakah dalam kondisi online dengan command ping
+  - Lakukan pengecekan operating system yang digunakan oleh target

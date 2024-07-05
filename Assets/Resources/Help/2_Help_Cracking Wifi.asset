@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5635cea902c90142b274a6a99209c10, type: 3}
+  m_Name: 2_Help_Cracking Wifi
+  m_EditorClassIdentifier: 
+  titleHelp: Cracking Wifi
+  imageHelp: {fileID: 21300000, guid: cda7d2f2cb46e584fbe39123767c7591, type: 3}
+  descHelp: "Tools yang akan digunakan untuk mengecrack wifi yaitu:\r\n- airmon-ng
+    : untuk mengaktifkan mode monitor pada wireless interface\r\n- airodump-ng :
+    untuk menampilkan detail jaringan wifi di sekitar kamu, termasuk menampilkan
+    BSSID nya\r\n- aireplay-ng : untuk mengirim deautentikasi paket untuk menangkap
+    handshakenya\r\n- aircrack-ng : untuk mengecrack handshake keynya untuk mendapatkan
+    password\r\nJika kamu terkoneksi kedalam wifi terlalu lama, maka kamu bisa tertangkap.
+    \r\r"

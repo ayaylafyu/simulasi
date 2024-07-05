@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d512e31f864045ac3572e2f954690, type: 3}
+  m_Name: 16_LogMisi_InNc
+  m_EditorClassIdentifier: 
+  nameLog: Misi Pengenalan Netcat (Dwiki)
+  descLog: "- Langkah 1: Membuka software browser.\r\n- Langkah 2: Membuka menu findbook.\r\n-
+    Langkah 3: Mencari user Elsa Sasmita dan mengirim pesan.\r\n- Langkah 4: Menginstal
+    netcat menggunakan perintah 'apt-get install netcat'.\r\n- Langkah 5: Mendengarkan
+    koneksi pada port 4444 menggunakan perintah 'nc -lnvp 4444'.\r\n- Langkah 6:
+    Melihat daftar perintah menggunakan perintah 'help'.\r\n- Langkah 7: Mendownload
+    file yang dicari dari folder documents menggunakan perintah 'download documents/list.txt'.\r\n-
+    Langkah 8: Keluar dari pc target.\r\n- Langkah 9: Melihat apakah file sudah diunduh
+    dengan perintah \u2018ls\u2019.\r"

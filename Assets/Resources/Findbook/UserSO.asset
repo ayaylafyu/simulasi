@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86a81ed4903cb44c92961bd658b09c7, type: 3}
+  m_Name: UserSO
+  m_EditorClassIdentifier: 
+  user:
+  - namaUser: Eko Prasetyo
+    tentangUser: 'Bekerja di PT. Mencari Cinta Sejati
+
+      Pernah belajar di SMA
+      1 Banjar
+
+      Tinggal di Jl. Manggis No. 127
+
+      Dari Jl. Manggis No.
+      127
+
+      Berpacaran dengan Jennie Blackpink
+
+'
+    kirimPesan: Selamat! Kamu mendapatkan uang tunai sebesar 20 juta rupiah, klaim
+      hadiahnya disini www.claimrpize.xyz
+    balasPesan: 'Terimakasih! '
+  - namaUser: Budi Yuwono
+    tentangUser: 'Mister raiden di Mortal Combat
+
+      Pernah bersekolah di Universitas
+      Mortal Combat
+
+      Tinggal di Bumi
+
+      Tidak ada tempat untuk ditampilkan
+
+      Tidak
+      ada info hubungan untuk ditampilkan
+
+'
+    kirimPesan: Halo Budi Yuwono, berdasarkan data kami, kamu mendapatkan satu unit
+      mobil Jazz, claim di www.jazzcar.com
+    balasPesan: Rasanya seperti mimpi! Terimakasih!
+  - namaUser: Agus Sutedjo
+    tentangUser: 'Bekerja di PT. Jomblo Abadi Sejahtera
+
+      Tidak ada sekolah
+      untuk ditampilkan
+
+      Tinggal di Gang Melati, Jl. Kemayoran
+
+      Dari
+      Gang Melati, Jl. Kemayoran
+
+      Jomblo Sejati
+
+'
+    kirimPesan: Hey hey heyyy, ada free product khusus buat kamu nihhh, klik link
+      www.freepass.id
+    balasPesan: Akan aku ambil secepatnya!
+  - namaUser: Lilis Pujiastuti
+    tentangUser: 'Tidak ada tempat kerja yang dapat diperlihatkan
+
+      Pernah belajar
+      di SMK 13 Pabeyan
+
+      Tinggal di Jl. Diponegoro No. 92
+
+      Dari Jl. Raya
+      No 34
+
+      Tidak ada info hubungan untuk ditampilkan
+
+'
+    kirimPesan: Hari yang indah, kamu terpilih sebagai pemenang giveaway sepatu Adadeh,
+      klaim sekarang juga!! www.adadeh-ga.com
+    balasPesan: Terimakasih banyakk!
+  - namaUser: Elsa Sasmita
+    tentangUser: "Bekerja di PT. Insan Karya\r\nPernah belajar di MTS 3 Sulawesi\r\nTinggal
+      di Kuningan, Jawa Barat\r\nDari Kuningan, Jawa Barat\r\nBertunangan dengan
+      Kiming \r\n"
+    kirimPesan: Selamat siang, selamat anda terpilih sebagai pemenang baking set
+      dari produk kami, klaim segera di www.bakingset.xyz
+    balasPesan: AKU SANGAT MENGINGINKANNYAA!

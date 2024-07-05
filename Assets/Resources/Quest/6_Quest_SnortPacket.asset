@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f1d7705de97e4d8b4e6d8bf3e136e, type: 3}
+  m_Name: 6_Quest_SnortPacket
+  m_EditorClassIdentifier: 
+  questID: 6_SnortPacket
+  questName: Luis
+  questChat: Halo, tolong tangkap informasi-informasi yang masuk ke dalam file log
+  expReward: 25
+  overviewChat: Halo, tolong tangkap inform...
+  kirimChat: Baiklah
+  balasChat: Oke.
+  questSteps:
+  - requiredFile: 
+    requiredInput: snort -dev -i eth0 -l /var/log/snort/
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: ls /var/log/snort/
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: snort -dev -r /var/log/snort/snort.log.716
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  activeQuestText:
+  - Tangkap file log
+  - Tampilkan isi folder /var/log/snort/
+  - Buka file log yang sudah ditangkap sebelumnya

